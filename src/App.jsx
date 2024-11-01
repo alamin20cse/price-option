@@ -1,21 +1,29 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+
 import './App.css'
 import Navbar from './Component/Navbar/Navbar'
+import PriceOptions from './Component/PriceOptions/PriceOptions'
+
+import MyLinechart from './Component/LineCharts/MyLinechart'
 
 function App() {
-  const [count, setCount] = useState(0)
+
 
   return (
     <>
       
 
-<Navbar></Navbar>
+<div className='bg-lime-200'>
+<Navbar ></Navbar>
+</div>
+
+
+<PriceOptions></PriceOptions>
+
+<MyLinechart></MyLinechart>
 
       <h1 className='text-3xl'>Vite + React</h1>
-      <h1>alamin</h1>
-
+      
 
      
       

@@ -2,9 +2,9 @@
 
 const Link = ({rout}) => {
     return (
-        <div>
+        <div className="px-4">
 
-           <li><a href={rout.path}>{rout.name}</a> </li>  
+           <li className=""><a href={rout.path}>{rout.name}</a> </li>  
             
 
             
